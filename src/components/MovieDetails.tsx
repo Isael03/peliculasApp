@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList, StyleSheet, Text, View} from 'react-native';
+import {FlatList, Text, View} from 'react-native';
 import {Cast} from '../interfaces/creditsInterfaces';
 import {MovieFull} from '../interfaces/movieInterface';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -12,8 +12,6 @@ interface Props {
 }
 
 export default function MovieDetails({movieFull, cast}: Props) {
-  console.log(cast);
-
   return (
     <>
       {/**Detalles */}
@@ -62,5 +60,3 @@ export default function MovieDetails({movieFull, cast}: Props) {
     </>
   );
 }
-
-const styles = StyleSheet.create({});

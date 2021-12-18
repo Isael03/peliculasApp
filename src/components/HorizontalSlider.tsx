@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList, StyleSheet, Text, View} from 'react-native';
+import {FlatList, Text, View} from 'react-native';
 import {Movie} from '../interfaces/movieInterface';
 import MoviePoster from './MoviePoster';
 
@@ -29,5 +29,3 @@ export default function HorizontalSlider({title, movie}: Props) {
     </View>
   );
 }
-
-const styles = StyleSheet.create({});
